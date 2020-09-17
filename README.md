@@ -18,7 +18,7 @@ end)
 The entire command line is split into a table that is returned. EXAMPLE:
 
 ```
-/test my name is melvin
+/test my name is Resmurf
 ```
 
 to access the name you'd have to grab it as ```args[5]```
