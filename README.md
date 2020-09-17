@@ -1,7 +1,7 @@
 # nanosCommandsHandler
 A small command handler library for Nanos World
 
-This library usage is pretty basic, the only function available is "RegisterClientCommand(commandName, function)". The usage is meant for Client Side only as Nanos doesn't support server sided commands. 
+This library usage is pretty basic, the only function available is ```RegisterClientCommand(commandName, function)```. The usage is meant for Client Side only as Nanos doesn't support server sided commands. 
 
 Example:
 
