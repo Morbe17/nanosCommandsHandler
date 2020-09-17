@@ -4,8 +4,6 @@ Client:on("Chat", function(text)
     local args = splitString(string.sub(text, 2))
     local command = args[1]
 
-    Package:Log(args[1])
-
     if commands[command] then
         commands[command](args)
     end
